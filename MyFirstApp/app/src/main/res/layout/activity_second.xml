@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Second Activity!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Main TextView to display the passed message -->
+    <TextView
+        android:id="@+id/textViewSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the Second Activity!"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Button to go back to the MainActivity -->
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Activity" />
+
+</LinearLayout>
